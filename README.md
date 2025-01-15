@@ -4,7 +4,7 @@
 
 
 # 📜 Java Project: RestApiEmployees
-The  RestApiEmployees project is a web application built using Java and the Spring Boot framework. Its primary purpose is to manage employee records efficiently.
+The  RestApiEmployees project is a web application built using Java and the Spring Rest framework. Its primary purpose is to manage employee records efficiently.
 
 ## 📦 Installation
 
