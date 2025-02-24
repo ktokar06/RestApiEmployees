@@ -8,7 +8,6 @@ import org.springframework.orm.hibernate5.HibernateTransactionManager;
 import org.springframework.orm.hibernate5.LocalSessionFactoryBean;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
-;
 import javax.sql.DataSource;
 import java.beans.PropertyVetoException;
 import java.util.Properties;
@@ -23,7 +22,7 @@ public class MyConfig {
     public DataSource dataSource (){
         ComboPooledDataSource dataSource = new ComboPooledDataSource();
         try {
-            dataSource.setJdbcUrl("jdbc:mysql://localhost:3306/REST?useSSL=false&amp");
+            dataSource.setJdbcUrl("jdbc:mysql://localhost:3306/RestApi?useSSL=false&amp");
             dataSource.setDriverClass("com.mysql.cj.jdbc.Driver");
             dataSource.setUser("root");
             dataSource.setPassword("secret");
